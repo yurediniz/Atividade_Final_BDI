@@ -1,0 +1,9 @@
+Alterações e ajustes no bando de dados AULA_BDI_221, para execução da atividade final
+
+A tabela CLIENTE_PET, recebeu a inserção dos dados da coluna ID_CLIENTE e ID_PET por meio do comando INSERT permitindo assim relacionar a tabela CLIENTE com a tabela PET.
+
+A tabela PRONTUARIO, recebeu a inserção de 4 linhas por meio do comando INSERT e podendo agora ser relacionada com a tabela PET.
+
+Para relacionar a tabela PET com a tabela PRONTUARIO, a tabela PET teve seus dados apagados com o comando DELETE e reinseridos com o INSERT porém algumas linhas receberam o dado ID_PRONTUARIO, para poder relacionar o respectivo pet a seu prontuário na tabela PRONTUARIO.
+
+Para testar as mudanças, as questões 4) e 4.1) do arquivo RESPOSTAS.sql, utilizam as tabelas que foram alteras pelo arquivo INSERTS_FINAIS.sql.
